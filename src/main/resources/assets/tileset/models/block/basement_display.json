@@ -1,0 +1,7 @@
+{
+  "parent": "tileset:block/two_tiled_block",
+  "textures": {
+    "side": "tileset:block/basement_side",
+    "top": "tileset:block/basement_top"
+  }
+}

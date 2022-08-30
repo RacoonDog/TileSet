@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tileset",
+  "version": "${version}",
+  "name": "TileSet",
+  "description": "",
+  "authors": [ "Crosby" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tileset/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.racoondog.tileset.client.TileSetClient"
+    ],
+    "main": [
+      "io.github.racoondog.tileset.TileSet"
+    ]
+  },
+  "mixins": [
+    "tileset.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  }
+}
